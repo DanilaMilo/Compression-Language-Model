@@ -3,7 +3,7 @@
 Results of methods.
 Base model - DeepPavlov/rubert-base-cased-conversational
 | Method | Size MB | F1_Score | GPU time inf. sec. | CPU time inf. sec. | Size model difference |
-| ------------- | ------------- |
+| ------------- | ------------- |  ------------- |  ------------- |  ------------- |  ------------- |
 | No one  | 711 | 0.966 | 0.036 | 1.51 | 0% |  
 | Quantization of Linear Layers | 454 | 0.966 | N/A | 1.18 | 56% |
 | Quantization of Linear and Embedding Layers | 179 | 0.966 | N/A | 1.13 | 397% |
