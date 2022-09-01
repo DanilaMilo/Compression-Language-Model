@@ -1,6 +1,7 @@
 # DistillationNLP
 
 Results of methods.
+
 Base model - DeepPavlov/rubert-base-cased-conversational
 | Method | Size MB | F1_Score | GPU time inf. sec. | CPU time inf. sec. | Size model difference |
 | ------------- | ------------- |  ------------- |  ------------- |  ------------- |  ------------- |
@@ -16,9 +17,9 @@ Base model - DeepPavlov/rubert-base-cased-conversational
 
 All calculations were carried out on Free Colab
 
-Jupyter Notebook summary:
-  Tested methods compression of models:
-    - Quantization
-    - Layer Decomposition
-    - Distillation
-  And combination of these methods
+## Jupyter Notebook summary:
+  Tested methods compression of models: \
+    - Quantization \
+    - Layer Decomposition \
+    - Distillation \
+  And combination of these methods 
