@@ -15,3 +15,10 @@ Base model - DeepPavlov/rubert-base-cased-conversational
 | Model Distillation + Tucker Decomposition + Quantization Emb. Layer | 1.69 | 0.958 | N/A | 0.1 | 42000% |
 
 All calculations were carried out on Free Colab
+
+Jupyter Notebook summary:
+  Tested methods compression of models:
+    - Quantization
+    - Layer Decomposition
+    - Distillation
+  And combination of these methods
