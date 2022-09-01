@@ -14,6 +14,7 @@ Base model - DeepPavlov/rubert-base-cased-conversational
 | Quantization Linears and Emb. Layers | 2.68 | 0.952 | N/A | 0.105 | 26529% |
 | Model Distillation + Tucker Decomposition | 3.43 | 0.961 | 0.02 | 0.11 | 20700% |
 | Model Distillation + Tucker Decomposition + Quantization Emb. Layer | 1.69 | 0.958 | N/A | 0.1 | 42000% |
+| Pruning of base model | 598 | 0.975 | 0.029 | 1.15 | 18% |
 
 All calculations were carried out on Free Colab
 
@@ -22,4 +23,9 @@ All calculations were carried out on Free Colab
     - Quantization \
     - Layer Decomposition \
     - Distillation \
-  And combination of these methods 
+    - Pruning \
+  And combination of these methods
+  
+  Pruning can be used before/after other methods, depending on the method. \
+  The pruning method used in notebook can be improved by using a different fine-tune strategy, cropping the model. \
+  In my example, I prune only the dense layers.
